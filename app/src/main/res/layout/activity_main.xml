@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAUNDRY KILOAN"
+        android:textSize="22sp" />
+    <EditText android:id="@+id/etPelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama pelanggan" />
+    <EditText android:id="@+id/etNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode nota" />
+    <EditText android:id="@+id/etBerat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Berat cucian (kg)"
+        android:inputType="numberDecimal"/>
+    <Button android:id="@+id/btnProsesLaundry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses dan Lihat Tagihan" />
+</LinearLayout>
